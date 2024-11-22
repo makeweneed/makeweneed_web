@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #141A2A;
+    margin: 0;
+    padding: 1vw 10vw 0 10vw;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1em;
+    background-color: #141A2A;
+}
+.nav-logo {
+    font-size: 1.5em;
+    color: #ffffff;
+}
+.nav-menu {
+    display: flex;
+    gap: 1em;
+    list-style: none;
+    margin: 0.5em;
+}
+.nav-menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+.nav-menu li a:hover {
+    color: #e255b8;
+}
+
+#contents {
+    margin-top: 8vw;
+    text-align: center;
+}
+#privacy {
+    margin: 10vw;
+    color: white;
+}
